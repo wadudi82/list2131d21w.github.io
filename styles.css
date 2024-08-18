@@ -95,3 +95,7 @@ a.title-link:hover {
     font-size: 1.2em;
     color: #aaa;
 }
+
+.rounded-border {
+    border-radius: 8px;
+}
