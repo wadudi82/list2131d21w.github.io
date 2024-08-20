@@ -30,6 +30,7 @@ th {
 #searchInput {
     padding: 8px;
     flex-grow: 1;
+    border-radius: 6px;
     box-sizing: border-box;
     background-color: #2c2f33;
     color: white;
