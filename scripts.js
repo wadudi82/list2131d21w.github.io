@@ -46,6 +46,12 @@ function searchTable() {
     document.getElementById('itemCounter').innerText = count + ' items';
 }
 
+function searchByCreator(creatorName) {
+    document.getElementById('searchInput').value = creatorName;
+    searchTable();
+    showTableView();
+}
+
 var previousScrollPosition = 0;
 
 function showItemView(itemId) {
