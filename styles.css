@@ -27,6 +27,7 @@ th {
     margin-bottom: 12px;
 }
 
+
 #searchInput {
     padding: 8px;
     flex-grow: 1;
@@ -69,6 +70,14 @@ a.title-link:hover {
     padding: 20px;
     border: 1px solid #444;
     margin-top: 20px;
+}
+
+.item-view h1 {
+    margin-bottom: 1px; /* Reduce the space below the title */
+}
+
+.item-view h2 {
+    margin-top: 0; /* Remove the space above the creator name */
 }
 
 .image-container {
